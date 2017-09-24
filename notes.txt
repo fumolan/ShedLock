@@ -1,3 +1,13 @@
 Compiler
 
 https://maven.apache.org/plugins/maven-compiler-plugin/examples/module-info.html
+
+
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project shedlock-provider-jdbc: Compilation failure
+[ERROR] /home/lukas/src/blog_workspace/shedlock/shedlock-provider-jdbc/src/main/java/net/javacrumbs/shedlock/provider/jdbc/JdbcStorageAccessor.java:[38,19] no suitable method found for debug(java.lang.String,java.sql.SQLException)
+[ERROR]     method org.slf4j.Logger.debug(java.lang.String,java.lang.Object...) is not applicable
+[ERROR]       (argument mismatch; java.sql.SQLException cannot be converted to java.lang.Object[])
+[ERROR]     method org.slf4j.Logger.debug(org.slf4j.Marker,java.lang.String) is not applicable
+[ERROR]       (argument mismatch; java.lang.String cannot be converted to org.slf4j.Marker)
+[ERROR]     method org.slf4j.Logger.debug(org.slf4j.Marker,java.lang.String,java.lang.Object...) is not applicable
+[ERROR]       (argument mismatch; java.lang.String cannot be converted to org.slf4j.Marker)

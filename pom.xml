@@ -43,7 +43,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.21</version>
+            <version>1.8.0-alpha2</version>
         </dependency>
 
         <dependency>
@@ -144,8 +144,8 @@
                     <jdkToolchain>
                         <version>9</version>
                     </jdkToolchain>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>9</source>
+                    <target>9</target>
                     <release>8</release>
                 </configuration>
             </plugin>
