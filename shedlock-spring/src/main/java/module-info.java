@@ -5,4 +5,5 @@ module shedlock.spring {
     requires org.slf4j;
     requires spring.core;
     requires spring.aop;
+    exports net.javacrumbs.shedlock.spring;
 }

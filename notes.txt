@@ -11,3 +11,7 @@ https://maven.apache.org/plugins/maven-compiler-plugin/examples/module-info.html
 [ERROR]       (argument mismatch; java.lang.String cannot be converted to org.slf4j.Marker)
 [ERROR]     method org.slf4j.Logger.debug(org.slf4j.Marker,java.lang.String,java.lang.Object...) is not applicable
 [ERROR]       (argument mismatch; java.lang.String cannot be converted to org.slf4j.Marker)
+
+
+
+module shedlock.provider.jdbc.template reads package com.mongodb.util from both mongo.java.driver and fongo
