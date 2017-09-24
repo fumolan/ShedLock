@@ -1,0 +1,3 @@
+Compiler
+
+https://maven.apache.org/plugins/maven-compiler-plugin/examples/module-info.html
