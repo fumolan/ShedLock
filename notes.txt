@@ -15,3 +15,10 @@ https://maven.apache.org/plugins/maven-compiler-plugin/examples/module-info.html
 
 
 module shedlock.provider.jdbc.template reads package com.mongodb.util from both mongo.java.driver and fongo
+
+no solution
+----
+
+Error:java: module shedlock.spring reads package org.hamcrest from both hamcrest.core and hamcrest.library
+Error:java: module shedlock.spring reads package org.json from both jsonassert and android.json
+Error:java: module shedlock.spring reads package org.objectweb.asm.signature from both accessors.smart and asm

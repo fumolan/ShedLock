@@ -1,5 +1,5 @@
 module shedlock.provider.jdbc.template {
-    requires shedlock.core;
+    requires transitive shedlock.core;
     requires shedlock.provider.jdbc.internal;
     requires java.sql;
     requires spring.jdbc;

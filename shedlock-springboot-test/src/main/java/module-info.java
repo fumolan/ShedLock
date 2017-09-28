@@ -6,7 +6,5 @@ module shedlock.springboot.test {
     requires shedlock.spring;
     requires java.sql;
     requires shedlock.provider.jdbc.template;
-    requires fongo;
-    requires mongo.java.driver;
     requires HikariCP;
 }
