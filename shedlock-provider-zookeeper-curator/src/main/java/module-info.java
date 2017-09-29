@@ -1,5 +1,5 @@
-module shedlock.provider.zookeeper.curator {
-    requires transitive shedlock.core;
+module net.javacrumbs.shedlock.provider.zookeeper.curator {
+    requires transitive net.javacrumbs.shedlock.core;
     requires org.slf4j;
     requires curator.framework;
     requires curator.client;

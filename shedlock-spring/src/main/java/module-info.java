@@ -1,5 +1,5 @@
-module shedlock.spring {
-    requires shedlock.core;
+module net.javacrumbs.shedlock.spring {
+    requires net.javacrumbs.shedlock.core;
     requires spring.context;
     requires spring.beans;
     requires org.slf4j;

@@ -1,7 +1,7 @@
-module shedlock.provider.jdbc.internal {
+module net.javacrumbs.shedlock.provider.jdbc.internal {
     requires java.sql;
-    requires shedlock.core;
+    requires net.javacrumbs.shedlock.core;
     exports net.javacrumbs.shedlock.provider.jdbc.internal to
-        shedlock.provider.jdbc.template,
-        shedlock.provider.jdbc;
+        net.javacrumbs.shedlock.provider.jdbc.template,
+        net.javacrumbs.shedlock.provider.jdbc;
 }

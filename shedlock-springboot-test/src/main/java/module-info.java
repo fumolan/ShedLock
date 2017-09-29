@@ -2,9 +2,9 @@ module shedlock.springboot.test {
     requires spring.boot.autoconfigure;
     requires spring.context;
     requires spring.boot;
-    requires shedlock.core;
-    requires shedlock.spring;
+    requires net.javacrumbs.shedlock.core;
+    requires net.javacrumbs.shedlock.spring;
     requires java.sql;
-    requires shedlock.provider.jdbc.template;
+    requires net.javacrumbs.shedlock.provider.jdbc.template;
     requires HikariCP;
 }

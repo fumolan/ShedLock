@@ -1,6 +1,6 @@
-module shedlock.provider.jdbc.template {
-    requires transitive shedlock.core;
-    requires shedlock.provider.jdbc.internal;
+module net.javacrumbs.shedlock.provider.jdbc.template {
+    requires transitive net.javacrumbs.shedlock.core;
+    requires net.javacrumbs.shedlock.provider.jdbc.internal;
     requires java.sql;
     requires spring.jdbc;
     requires spring.tx;
