@@ -5,6 +5,6 @@ module shedlock.springboot.test {
     requires net.javacrumbs.shedlock.core;
     requires net.javacrumbs.shedlock.spring;
     requires java.sql;
-    requires net.javacrumbs.shedlock.provider.jdbc.template;
+    requires net.javacrumbs.shedlock.provider.jdbctemplate;
     requires HikariCP;
 }

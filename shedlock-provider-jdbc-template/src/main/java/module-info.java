@@ -1,4 +1,4 @@
-module net.javacrumbs.shedlock.provider.jdbc.template {
+module net.javacrumbs.shedlock.provider.jdbctemplate {
     requires transitive net.javacrumbs.shedlock.core;
     requires net.javacrumbs.shedlock.provider.jdbc.internal;
     requires java.sql;
