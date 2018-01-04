@@ -36,14 +36,14 @@
     </modules>
 
     <properties>
-        <spring.version>5.0.0.RELEASE</spring.version>
+        <spring.version>5.0.2.RELEASE</spring.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.8.0-alpha2</version>
+            <version>1.8.0-beta0</version>
         </dependency>
 
         <dependency>
